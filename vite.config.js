@@ -8,8 +8,9 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ["react", "react-dom", "lodash"], // Example: common dependencies
+          vendor: ["react", "react-dom"], // Example: common dependencies
         },
+        chunkSizeWarningLimit: 2000, // Adjust as needed
       },
     },
   },
