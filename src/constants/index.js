@@ -27,7 +27,7 @@ import {
   omnifood,
   graphql,
   bytewise,
-} from "../assets";
+} from "../images";
 
 export const navLinks = [
   {
