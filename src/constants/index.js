@@ -27,6 +27,7 @@ import {
   omnifood,
   graphql,
   bytewise,
+  drawingCanvas,
 } from "../images";
 
 export const navLinks = [
@@ -295,6 +296,38 @@ const projects = [
     image: insta,
     source_code_link: "https://github.com/emankamran/final-project-bytewise",
     site_link: "https://github.com/emankamran/final-project-bytewise",
+  },
+  {
+    name: "Multiplayer Drawing Board",
+    description:
+      "Developed a collaborative drawing application that synchronizes canvas states using socket.io, allowing multiple users to draw together seamlessly. It also offers customizable tools while integrating Three.js for animated 3D objects to enhance user engagement.",
+    tags: [
+      {
+        name: "remix.js",
+        color: "orange-text-gradient",
+      },
+
+      {
+        name: "socket.io",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "three.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind-CSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: drawingCanvas,
+    source_code_link: "https://github.com/emankamran/multiplayer-drawingboard",
+    site_link: "https://multiplayer-drawingboard.netlify.app/",
   },
   {
     name: "Weather App",

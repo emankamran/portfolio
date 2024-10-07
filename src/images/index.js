@@ -32,6 +32,7 @@ import weblog from "./weblog.png";
 import grocify from "./grocify.png";
 import weatherapp from "./weatherapp.png";
 import insta from "./insta.png";
+import drawingCanvas from "./drawingCanvas.png";
 export {
   backend,
   creator,
@@ -64,4 +65,5 @@ export {
   omnifood,
   loopstudio,
   bytewise,
+  drawingCanvas,
 };
